@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: aqua;
+    clip-path: polygon(  0 0 , 100% 0 , 100% 107% , 60% 87% , 0 115%); 
+    height: 550px;   
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn-contact a{
+    text-decoration: none;
+    color: black;
+}
+header nav .left a{
+    color: rgb(200, 25, 25);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+img{
+    width: 107px;
+    height: 107px;
+    /* filter: inver(100%)); */
+    color: white;
+}
+
+.img-manish{
+    transform: scaleX(-1);
+}
+
+header nav{
+    padding: 1rem 0;
+}
+
+header nav .left .branding{
+    margin-right: 9rem;
+}
+
+header nav .left a:hover{
+    color: black;
+}
+
+.hero .right img{
+    height: 350px;
+    width: 200px;
+}
+
+.hero .left h5{
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.hero .left .name h3{
+    line-height: 2rem;
+    /* margin-left: 15%; */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.hero .left span{
+    color: rgb(240, 58, 88);
+}
+
+.hero{
+    width: 95%;
+    /* border: 2px solid red; */
+}
+
+.hero .left .name p{
+    line-height: 1.5rem;
+}
+
+.skill .container .section-heading{
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 6rem;
+    padding-top: 2rem;
+}
+
+section.skill .container .card-wraper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+    cursor: pointer;
+}
+
+section.skill{
+    background-color: rgb(127, 255, 249);
+    padding-bottom: 4rem;
+}
+
+section.skill .container .card-wraper .card{
+    background-color: rgb(244 255 216);
+    padding: 2rem 3rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+section.skill .container .card-wraper .card img{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -2.9rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(173, 206, 216);
+   
+}
+
+section.skill .container .card-wraper .card h2{
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: blue;    
+}
+
+section.skill .container .card-wraper .card p{
+    line-height: 1.5rem;
+    text-align:justify ;
+}
+
+section.skill .container .card-wraper .card:hover{
+    background: red;
+}
+section.skill .container .card-wraper .card:hover h2,section.skill .container .card-wraper .card:hover p{
+    color: white;
+}
+
+section.contact{
+    background-color: rgb(127, 255, 249);
+    padding-bottom: 4rem;
+}
+
+section.contact .card-wraper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section.contact .card-wraper .card{
+    text-align: center;
+}
+
+section.contact .card-wraper .card img{
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
+}
+
+
+section.contact .card-wraper .card h2{
+    font-weight: 400;
+    margin-bottom: .5rem;
+
+}
+
+section.contact .card-wraper .card h5{
+    color: grey;
+}
+
+section.contact .input-wrap{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+section.contact .input-wrap input{
+    margin: 0 2rem 2rem 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid grey;
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .input-wrap-2 input ,textarea{
+    margin: 0 2rem 2rem 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid grey;
+}
+
+section.contact .input-wrap-2 input:focus ,textarea:focus ,section.contact .input-wrap input{
+    outline: none;
+}
+
+section.contact .btn-center{
+    text-align: center;
+}
+

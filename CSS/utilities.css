@@ -1,0 +1,44 @@
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: .5rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    border-radius: 13px;
+}
+
+.btn-primary{
+    background-color: blue;
+    /* color: black; */
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: blue;
+    color: blue;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.section-heading{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+}
